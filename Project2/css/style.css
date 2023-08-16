@@ -55,7 +55,7 @@
 #navbar ul li a{
     color: rgb(0, 0, 0);
     display: block;
-    padding: 20px 12px;
+    padding: 3px 12px;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -71,7 +71,7 @@
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 650px;
+    height: 646px;
     align-items: center;
     justify-content: center;
 }
@@ -80,7 +80,7 @@
     content: "";
     background: url('../bg2.jpg') no-repeat center center/cover;
     position: absolute;
-    height: 77%;
+    height: 76%;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -97,7 +97,7 @@
 #home p{
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: 'Bree Serif', serif;
 }
 
@@ -110,9 +110,9 @@
 #services .box{
    border: 3px solid black; 
    padding: 34px;
-   margin: 0px 5px;
-   border-radius: 24px;
-   background: #efefef;
+   margin: 4px 8px;
+   border-radius: 28px;
+   background: #f6f6f6;
 }
 
 #services .box img{
@@ -122,9 +122,79 @@
  }
 
  /* Client section */
- /* #client-section{
-    
- } */
+
+ #client-section{
+    height: 390px;
+ }
+
+ #client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 37%;
+    z-index: -1;
+    opacity: 0.3;
+ }
+ #clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .client-item{
+    padding: 34px;
+ }
+
+ #clients img{
+    height: 124px;
+ }
+
+
+ /* Contact Section */
+ #contact{
+    position: relative;
+ }
+
+ #contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact.jpg') no-repeat center center/cover;
+ }
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+ footer{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 9px 20px;
+ }
 
 /* Utility Classes */
 .h-primary{
@@ -140,14 +210,20 @@
 }
 
 .btn{
-    padding: 6px 20px;
+    padding: 10px 20px;
     margin: 17px;
-    border: 2px solid white;
-    color: white;
-    background-color: #562d2d;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: #7e4343;
     font-size: 1.2rem;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.btn:hover{
+    border: 2px solid white;
+    color: #ffffff;
+    background-color: #572e2e;
 }
 
 .center{
