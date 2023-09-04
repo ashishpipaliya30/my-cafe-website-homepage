@@ -71,7 +71,7 @@
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 646px;
+    height: 481px;
     align-items: center;
     justify-content: center;
 }
@@ -97,7 +97,7 @@
 #home p{
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-family: 'Bree Serif', serif;
 }
 
@@ -124,7 +124,7 @@
  /* Client section */
 
  #client-section{
-    height: 390px;
+    height: 306px;
  }
 
  #client-section::before{
