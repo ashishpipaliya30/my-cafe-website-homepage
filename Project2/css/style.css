@@ -87,10 +87,22 @@
 }
 
 #home h1 {
-  font-size: 4.6rem;
+  font-size: 3.6rem;
   color: rgb(0, 0, 0);
   text-align: center;
   font-family: "Bree Serif", serif;
+}
+
+@media only screen and (max-width: 768px) {
+  #home h1 {
+    font-size: 3.2rem; /* Adjust font size for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #home h1 {
+    font-size: 2.4rem; /* Further adjust font size for even smaller screens */
+  }
 }
 
 #home p {
