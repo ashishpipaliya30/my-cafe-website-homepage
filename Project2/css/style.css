@@ -97,14 +97,14 @@
 @media only screen and (max-width: 768px) {
   #home h1 {
     font-size: 2.2rem; /* Adjust font size for smaller screens */
-    width: 140%;
+    max-width: 100%;
   }
 }
 
 @media only screen and (max-width: 480px) {
   #home h1 {
     font-size: 1.5rem; /* Further adjust font size for even smaller screens */
-    width: 150%;
+    width: 199%;
   }
 }
 
