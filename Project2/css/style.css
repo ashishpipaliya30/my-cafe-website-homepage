@@ -158,6 +158,7 @@
 
 .client-item {
   padding: 34px;
+  margin-top: -44px;
 }
 
 #clients img {
@@ -244,7 +245,7 @@ footer {
 }
 
 button {
-  margin-left: 138px;
+  margin-left: 50px;
   margin-top: 20px;
   padding: 15px 40px;
   background-color: rgb(123, 109, 109);
